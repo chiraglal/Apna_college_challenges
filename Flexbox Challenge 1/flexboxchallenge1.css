@@ -1,0 +1,37 @@
+*{
+    font-size: 22px;
+}
+.bigcontainer{
+    display: flex;
+    flex-direction: column;
+}
+.bigrow{
+    display: flex;
+    flex-direction: row;
+
+}
+.box{
+    width: 100%;
+    background-color: rgb(219, 121, 41);
+    color: white;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 7px;
+}
+.ibox{
+    margin: 5px;
+    width: 100%;
+    background-color: white;
+    color: rgb(219, 121, 41);
+    padding: 8px 5px;
+    border-radius: 4px;
+}
+#hello{
+    display: flex;
+    flex-direction: column;
+}
+.irow{
+    display: flex;
+    flex-direction: row;
+
+}

@@ -1,0 +1,39 @@
+/* *{
+    border: 1px solid red;
+} */
+body{
+    padding: auto;
+}
+.box{
+    border-radius: 10px;
+    background-color: rgb(105, 203, 228);
+    font-weight: bold;
+    padding: 15px;
+    float: left;
+    margin: 5px 50px;
+    width: calc(100vw - 180px);
+}
+img{
+    width: 115px;
+    height: 115px;
+    float: left;
+    border-radius: 9px;
+}
+p {
+    text-align: left;
+    color: rgb(255, 255, 255);
+    font-size: large;
+    padding: 5px;
+}
+.box-2 img {
+    float: right;
+}
+
+.box-4 img {
+    float: right;
+}
+.box-1 p,.box-3 p {
+    margin: 10px;
+    clear: left;
+    display: inline-block;
+}
