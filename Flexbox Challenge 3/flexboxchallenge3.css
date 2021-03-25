@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    font-weight: 600;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+.nav{
+    background-color: rgb(204, 236, 204);
+    width: 20%;
+    padding: 20px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(120, 212, 77);
+    width: 80%;
+}
+.article{
+    background-color: white;
+    height: 70%;
+    padding: 20px;
+}
+.header, .footer{
+    height: 15%;
+    padding: 20px;
+}

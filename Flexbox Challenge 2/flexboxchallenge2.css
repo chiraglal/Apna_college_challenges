@@ -8,15 +8,11 @@
     margin: 10px;
     
 }
-.column{
-    /* display: flex;
-    flex-direction: column; */
-    /* background-color: lightgray; */
+    .column{
     color: black;
     width: 100%;
     margin: 20px;
     font-family:serif;
-    /* border: 2px solid lightgray; */
     box-shadow: 6px 6px 15px gray;
     
 }
